@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gameBoard"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 3 rows x 3 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dip" >
+
+        <!-- Picture of user -->
+
+        <com.facebook.widget.ProfilePictureView
+            android:id="@+id/topLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5sp"
+            facebook:preset_size="large" />
+
+        <!-- Picture of user -->
+
+        <com.facebook.widget.ProfilePictureView
+            android:id="@+id/topMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5sp"
+            facebook:preset_size="large" />
+
+        <!-- Picture of user -->
+
+        <com.facebook.widget.ProfilePictureView
+            android:id="@+id/topRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5sp"
+            facebook:preset_size="large" />
+    </TableRow>
+
+    <!-- 3 columns -->
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dip" >
+
+        <!-- Picture of user -->
+
+        <com.facebook.widget.ProfilePictureView
+            android:id="@+id/middleLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5sp"
+            facebook:preset_size="large" />
+
+        <!-- Picture of user -->
+
+        <com.facebook.widget.ProfilePictureView
+            android:id="@+id/middleMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5sp"
+            facebook:preset_size="large" />
+
+        <!-- Picture of user -->
+
+        <com.facebook.widget.ProfilePictureView
+            android:id="@+id/middleRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5sp"
+            facebook:preset_size="large" />
+    </TableRow>
+
+    <!-- 3 columns -->
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dip" >
+
+        <!-- Picture of user -->
+
+        <com.facebook.widget.ProfilePictureView
+            android:id="@+id/bottomLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5sp"
+            facebook:preset_size="large" />
+
+        <!-- Picture of user -->
+
+        <com.facebook.widget.ProfilePictureView
+            android:id="@+id/bottomMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5sp"
+            facebook:preset_size="large" />
+
+        <!-- Picture of user -->
+
+        <com.facebook.widget.ProfilePictureView
+            android:id="@+id/bottomRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5sp"
+            facebook:preset_size="large" />
+    </TableRow>
+
+</TableLayout>

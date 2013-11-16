@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+ 
+    <!--  ListRow Left  Thumbnail image -->
+    <LinearLayout android:id="@+id/listRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+    
+  <!-- Picture of user--> 
+  <com.facebook.widget.ProfilePictureView
+   android:id="@+id/friendProfilePicture"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:gravity="center_horizontal"
+   android:padding="5sp"
+   facebook:preset_size="small" />
+ 
+    </LinearLayout>
+ 
+    <!-- Name of user-->
+    <TextView
+        android:id="@+id/friendName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/listRow"
+        android:text="Name"
+        android:textColor="@android:color/white"
+        android:typeface="sans"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+ 
+
+ 
+    <!-- Num of wins -->
+    <TextView
+        android:id="@+id/wins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:text="Wins: 0"
+        android:layout_marginRight="5dip"
+        android:textSize="12sp"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"/>
+    
+
+ 
+</RelativeLayout>
